@@ -1,0 +1,117 @@
+.nav-bar {
+    height: 111px;
+    width: 100%;
+  }
+  
+  .nav-bar .overlap {
+    height: 111px;
+    position: relative;
+  }
+  
+  .nav-bar .rectangle {
+    background-color: #0f0f0f;
+    height: 84px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .nav-bar .link {
+    height: 58px;
+    left: 789px;
+    position: absolute;
+    top: 16px;
+    width: 467px;
+  }
+  
+  .nav-bar .side-button {
+    height: 58px;
+    left: 342px;
+    position: absolute;
+    top: 0;
+    width: 127px;
+  }
+  
+  .nav-bar .overlap-group {
+    background: linear-gradient(180deg, rgb(4, 134, 91) 0%, rgb(0.96, 32, 21.73) 93%);
+    border-radius: 37px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 58px;
+    position: relative;
+    width: 125px;
+  }
+  
+  .nav-bar .text-wrapper {
+    color: #ffffff;
+    font-family: "Outfit-Bold", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 18px;
+    white-space: nowrap;
+    width: 67px;
+  }
+  
+  .nav-bar .historique {
+    height: 32px;
+    left: 146px;
+    position: absolute;
+    top: 13px;
+    width: 142px;
+  }
+  
+  .nav-bar .div {
+    color: #ffffff;
+    font-family: "Outfit-Bold", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 4px;
+    width: 103px;
+  }
+  
+  .nav-bar .img {
+    height: 29px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 26px;
+  }
+  
+  .nav-bar .contact {
+    height: 29px;
+    left: 0;
+    position: absolute;
+    top: 11px;
+    width: 119px;
+  }
+  
+  .nav-bar .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Outfit-Bold", Helvetica;
+    font-size: 17px;
+    font-weight: 700;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    top: 6px;
+    white-space: nowrap;
+    width: 80px;
+  }
+  
+  .nav-bar .logo-ENI {
+    height: 84px;
+    left: 191px;
+    object-fit: cover;
+    position: absolute;
+    top: 27px;
+    width: 82px;
+  }

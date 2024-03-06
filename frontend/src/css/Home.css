@@ -1,0 +1,43 @@
+.bienvenue {
+    position: relative;
+    overflow: hidden;
+    height: 100vh; /* Utiliser 100% de la hauteur de la fenêtre */
+    max-width: 100%; /* Pour garantir que la largeur ne dépasse pas la largeur de la fenêtre */
+    background-color: #ffffff;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Pour couvrir la totalité du conteneur */
+  }
+  
+  .bienvenue .overlap-group {
+    background-color: #fbf9f946;
+    height: 60%; /* Utiliser 60% de la hauteur parente */
+    left: 5%; /* Utiliser 5% de la largeur parente depuis la gauche */
+    position: relative;
+    top: 5%; /* Utiliser 5% de la hauteur parente depuis le haut */
+    width: 90%; /* Utiliser 90% de la largeur parente */
+  }
+  
+  .bienvenue .bienvenue-futurs {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg, rgb(4, 134, 91) 0%, rgb(0, 23.8, 15.93) 100%);
+    background-clip: text;
+    color: transparent;
+    font-family: "Quicksand-Bold", Helvetica;
+    font-size: 4vw; /* Utiliser une taille de police basée sur la largeur de la fenêtre */
+    font-weight: 700;
+    left: 5%; /* Utiliser 5% de la largeur parente depuis la gauche */
+    letter-spacing: 0;
+    line-height: 5vw; /* Utiliser une hauteur de ligne basée sur la largeur de la fenêtre */
+    position: absolute;
+    text-emphasis-color: transparent;
+    top: 10%; /* Utiliser 10% de la hauteur parente depuis le haut */
+    width: 60%; /* Utiliser 50% de la largeur parente */
+  }
