@@ -1,0 +1,126 @@
+.feedback-container {
+    padding: 16px;
+    margin: 10rem 5rem;
+    transform: translateY(200%);
+  }
+
+  .feedback-text-column .overlap-group {
+    height: 91px;
+    position: relative;
+    width: 368px;
+  }
+  
+  .feedback-text-column .rectangle {
+    background-color: #84dcc6;
+    height: 78px;
+    left: 11px;
+    position: absolute;
+    top: 13px;
+    width: 357px;
+  }
+
+  .feedback-text-column .calendrier-scolaire {
+    color: #ffffff;
+    font-family: "Outfit-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 12px;
+    letter-spacing: 0.8px;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 28px;
+    width: 334px;
+  }
+
+  .feedback-text-column .div {
+    background-color: #04865b;
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 357px;
+  }
+
+  .feedback-content {
+    gap: 20px;
+    display: flex;
+  }
+  .feedback-img-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 58%;
+    margin-left: 20px;
+  }
+  .feedback-text-column {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 42%;
+    margin-left: 0;
+  }
+  .feedback-heading {
+    font-family: Outfit, sans-serif;
+    background-color: #04865b;
+    z-index: 10;
+    justify-content: center;
+    padding: 40px 42px;
+    color: #fff;
+  }
+  .feedback-subtitle {
+    letter-spacing: 1.16px;
+    background: linear-gradient(90deg, #04865b 0%, #23342e 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 97px;
+    font: 29px/44px Outfit, sans-serif;
+    color: transparent;
+
+  }
+  .feedback-cta {
+    border-radius: 37px;
+    background: linear-gradient(99deg, #04865b -9.82%, #435e17 96.13%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-self: center;
+    margin-top: 50px;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 23px 21px;
+    font: 17px/124% Outfit, sans-serif;
+  }
+  .feedback-img {
+    aspect-ratio: 1.35;
+    object-fit: cover;
+    width: 100%;
+    margin-top: 60px;
+  }
+  
+  @media (max-width: 991px) {
+    .feedback-content {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+    .feedback-text-column, .feedback-img-column {
+      width: 100%;
+    }
+    .feedback-heading {
+      padding: 20px;
+    }
+    .feedback-subtitle {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+    .feedback-cta {
+      white-space: initial;
+      margin-top: 40px;
+      padding: 20px;
+    }
+    .feedback-img {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }

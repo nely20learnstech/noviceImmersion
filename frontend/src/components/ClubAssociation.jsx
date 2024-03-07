@@ -12,6 +12,7 @@ import  cyberseceni from "../assets/img/cyberseceni.jpg"
 import  ping from "../assets/img/ENI-C2ET.jpg"
 import  dsa from "../assets/img/ENIDSA.jpg"
 import  soccer from "../assets/img/ENIsoccer.jpg"
+import flavien from "../assets/img/flavien.jpg"
 
 export const ElementClubsEt = () => {
   return (
@@ -51,13 +52,13 @@ export const ElementClubsEt = () => {
           <div className="group-wrapper">
             <div className="overlap-group-wrapper">
               <div className="overlap-group-2">
-                <img className="ellipse-12" alt="Ellipse" src="ellipse-19.svg" />
-                <img className="ellipse-13" alt="Ellipse" src="ellipse-5.svg" />
-                <img className="ellipse-14" alt="Ellipse" src="ellipse-18.png" />
+                <img className="ellipse-12" alt="Ellipse" src="" />
+                <img className="ellipse-13" alt="Ellipse" src="" />
+                <img className="ellipse-14" alt="Ellipse" src={aeeni} />
               </div>
             </div>
           </div>
-          <img className="ellipse-15" alt="Ellipse" src="image.png" />
+          <img className="ellipse-15" alt="Ellipse" src={flavien} />
         </div>
       </div>
     </div>

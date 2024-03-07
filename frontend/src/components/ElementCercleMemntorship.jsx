@@ -1,5 +1,7 @@
-import React from "react";
-import "./style.css";
+import student from "../assets/img/image_2024-03-06_190215579-removebg-preview.png"
+// import "./style.css";
+
+
 
 export const ElementCercleMentorship = () => {
   return (
@@ -12,7 +14,7 @@ export const ElementCercleMentorship = () => {
             <div className="div">Chercher</div>
           </div>
         </div>
-        <img className="image" alt="Image" src="image-2024-03-06-190215579-removebg-preview-1.png" />
+        <img className="image" alt="Image" src={student} />
       </div>
       <div className="cercles-d-etudes">
         <img className="img" alt="Image" src="image-2024-03-06-185036121-removebg-preview-1.png" />

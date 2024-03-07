@@ -4,7 +4,8 @@ import "../css/Home.css"
 import { ElementSpecialisation } from "../components/Specialization"
 import { ElementClubsEt } from "../components/ClubAssociation"
 import { ElementCercleMentorship } from "../components/Mentoring"
-import { Activities } from "../components/Activities"
+import { ElementActivitS } from "../components/Activities"
+import { ElementFeedbackAnciens } from "../components/FeedBack"
 
 export const Home = () => {
   return (
@@ -27,7 +28,8 @@ export const Home = () => {
     <ElementSpecialisation/>
     <ElementClubsEt />
     <ElementCercleMentorship/>
-    {/* <Activities/> */}
+    <ElementActivitS/>
+    <ElementFeedbackAnciens/>
     </div>
   )
 }

@@ -1,7 +1,8 @@
 .element-activit-s {
     height: 719px;
     position: relative;
-    width: 1190px;
+    /* width: 1190px; */
+    transform: translateY(150%);
   }
   
   .element-activit-s .titre {
