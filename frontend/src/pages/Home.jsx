@@ -6,6 +6,7 @@ import { ElementClubsEt } from "../components/ClubAssociation"
 import { ElementCercleMentorship } from "../components/Mentoring"
 import { ElementActivitS } from "../components/Activities"
 import { ElementFeedbackAnciens } from "../components/FeedBack"
+import { Footer } from "../components/Footer"
 
 export const Home = () => {
   return (
@@ -30,6 +31,7 @@ export const Home = () => {
     <ElementCercleMentorship/>
     <ElementActivitS/>
     <ElementFeedbackAnciens/>
+    <Footer/>
     </div>
   )
 }
