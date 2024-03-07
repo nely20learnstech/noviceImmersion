@@ -16,8 +16,9 @@
 .element-cercle-mentorship {
     height: 976px;
     position: relative;
-    width: 1216px;
+    width: 100%;
     transform: translateY(100%);
+
   }
   
   .element-cercle-mentorship .mentoring {
@@ -112,7 +113,7 @@
     left: 81px;
     position: absolute;
     top: 0;
-    width: 1048px;
+    width: 100%;
   }
   
   .element-cercle-mentorship .img {
