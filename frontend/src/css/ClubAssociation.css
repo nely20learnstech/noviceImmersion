@@ -1,0 +1,264 @@
+.element-clubs-et {
+    height: 720px;
+    position: relative;
+    width: 1166px;
+    transform: translateY(50%);
+  }
+  
+  .element-clubs-et .ellipse {
+    height: 154px;
+    left: 81px;
+    object-fit: cover;
+    position: absolute;
+    top: 87px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .img {
+    height: 154px;
+    left: 81px;
+    object-fit: cover;
+    position: absolute;
+    top: 479px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-2 {
+    height: 154px;
+    left: 927px;
+    object-fit: cover;
+    position: absolute;
+    top: 479px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-3 {
+    height: 154px;
+    left: 645px;
+    object-fit: cover;
+    position: absolute;
+    top: 479px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-4 {
+    height: 154px;
+    left: 363px;
+    object-fit: cover;
+    position: absolute;
+    top: 479px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-5 {
+    height: 154px;
+    left: 645px;
+    object-fit: cover;
+    position: absolute;
+    top: 283px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-6 {
+    height: 154px;
+    left: 927px;
+    object-fit: cover;
+    position: absolute;
+    top: 283px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-7 {
+    height: 154px;
+    left: 927px;
+    object-fit: cover;
+    position: absolute;
+    top: 87px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-8 {
+    height: 154px;
+    left: 363px;
+    object-fit: cover;
+    position: absolute;
+    top: 283px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-9 {
+    height: 154px;
+    left: 82px;
+    object-fit: cover;
+    position: absolute;
+    top: 283px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-10 {
+    height: 154px;
+    left: 645px;
+    object-fit: cover;
+    position: absolute;
+    top: 87px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .ellipse-11 {
+    height: 154px;
+    left: 363px;
+    object-fit: cover;
+    position: absolute;
+    top: 87px;
+    width: 152px;
+  }
+  
+  .element-clubs-et .titre {
+    height: 91px;
+    left: 44px;
+    position: absolute;
+    top: -91px;
+    width: 370px;
+  }
+  
+  .element-clubs-et .overlap-group {
+    height: 91px;
+    position: relative;
+    width: 368px;
+    left: 30px;
+  }
+  
+  .element-clubs-et .rectangle {
+    background-color: #84dcc6;
+    height: 78px;
+    left: 11px;
+    position: absolute;
+    top: 13px;
+    width: 357px;
+  }
+  
+  .element-clubs-et .div {
+    background-color: #04865b;
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 357px;
+  }
+  
+  .element-clubs-et .text-wrapper {
+    color: #ffffff;
+    font-family: "Outfit-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: 21px;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+    white-space: nowrap;
+    width: 223px;
+  }
+  
+  .element-clubs-et .overlap-wrapper {
+    height: 91px;
+    left: 39px;
+    position: absolute;
+    top: 772px;
+    width: 370px;
+  }
+  
+  .element-clubs-et .l-association-des {
+    color: #ffffff;
+    font-family: "Outfit-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 27px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 18px;
+    width: 302px;
+  }
+  
+  .element-clubs-et .en-tant-qu-tudiant-l {
+    color: #000000;
+    font-family: "Outfit-Regular", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 150px;
+    letter-spacing: 1.2px;
+    line-height: 35px;
+    position: absolute;
+    top: 980px;
+    width: 394px;
+    /* white-space: wrap; */
+  }
+  
+  .element-clubs-et .group {
+    height: 385px;
+    left: 586px;
+    position: absolute;
+    top: 902px;
+    width: 443px;
+  }
+  
+  .element-clubs-et .overlap {
+    height: 385px;
+    position: relative;
+  }
+  
+  .element-clubs-et .group-wrapper {
+    height: 363px;
+    left: 34px;
+    position: absolute;
+    top: 0;
+    width: 409px;
+  }
+  
+  .element-clubs-et .overlap-group-wrapper {
+    height: 363px;
+  }
+  
+  .element-clubs-et .overlap-group-2 {
+    height: 363px;
+    position: relative;
+    width: 409px;
+  }
+  
+  .element-clubs-et .ellipse-12 {
+    height: 358px;
+    left: 13px;
+    position: absolute;
+    top: 0;
+    width: 396px;
+  }
+  
+  .element-clubs-et .ellipse-13 {
+    height: 358px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 396px;
+  }
+  
+  .element-clubs-et .ellipse-14 {
+    height: 195px;
+    left: 97px;
+    object-fit: cover;
+    position: absolute;
+    top: 86px;
+    width: 202px;
+  }
+  
+  .element-clubs-et .ellipse-15 {
+    height: 168px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 217px;
+    width: 171px;
+  }
+  

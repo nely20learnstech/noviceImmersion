@@ -1,10 +1,14 @@
 import { NavBar } from "../components/NavBar"
-import video from '../video/videoENI.mp4'
+import video from '../video/video.mp4'
 import "../css/Home.css"
+import { ElementSpecialisation } from "../components/Specialization"
+import { ElementClubsEt } from "../components/ClubAssociation"
+import { ElementCercleMentorship } from "../components/Mentoring"
+import { Activities } from "../components/Activities"
 
 export const Home = () => {
   return (
-    <div>
+    <div className="home">
       <NavBar/>
       <div className="bienvenue">
         <video autoPlay muted loop className="background-video">
@@ -13,11 +17,17 @@ export const Home = () => {
         <div className="overlap-group">
           <div className="bienvenue-futurs">
             Bienvenue, futurs élites!
-            <br />
-            Welcome, future elites
           </div>
-      </div>
+          <div className="welcome-future">            
+            Welcome, future elites!
+          </div>
+        </div>      
     </div>
+
+    <ElementSpecialisation/>
+    <ElementClubsEt />
+    <ElementCercleMentorship/>
+    {/* <Activities/> */}
     </div>
   )
 }

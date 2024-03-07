@@ -5,7 +5,7 @@ const clubsData = [
     acronym : "C3LF",
     name: "Club Linux et Logiciels Libres de Fianarantsoa",
     logo: "",
-    slogan: "",
+    slogan: "Promouvoir l'utilisation des logiciels libres dans le monde Universitaire et Professionnel",
     description: "",
   },
   {
@@ -23,26 +23,47 @@ const clubsData = [
     description: "",
   },
   {
-    acronym: "",
-    name: "EC",
+    acronym: "As ENI - EVBC",
+    name: "Club de Volley de l'ENI",
     logo: "",
     slogan: "",
     description: "",
   },
   {
-    acronym: "",
-    name: "GBU",
+    acronym: "GBU",
+    name: "Groupe Biblique Universitaire",
     logo: "",
     slogan: "",
     description: "",
   },
   {
-    acronym: "",
-    name: "C3LF",
+    acronym: "ENI Dance",
+    name: "Club de Dance de l'Ecole Nationale d'Informatique",
     logo: "",
     slogan: "",
     description: "",
-  }
+  },
+  {
+    acronym: "ECP-ENI",
+    name: "ENI Dance",
+    logo: "",
+    slogan: "",
+    description: "",
+  },
+  {
+    acronym: "ENI-Cybersécurité",
+    name: "ENI Dance",
+    logo: "",
+    slogan: "",
+    description: "",
+  },  
+  {
+    acronym: "ENI Dance",
+    name: "ENI Dance",
+    logo: "",
+    slogan: "",
+    description: "",
+  },
 ]
 
 export const Clubs = () => {

@@ -12,7 +12,9 @@ import { Entities } from './components/Entities/Entities';
 import { UndergraduatePrograms } from './components/UndergraduatePrograms';
 import { PostgraduatePrograms } from './components/PostgraduatePrograms';
 import { Custom404Page } from './pages/Custom404Page';
-
+import { Chat } from "./components/Chat";
+import {  } from "./components/Chat";
+import { ElementSpecialisation } from "./components/Specialization";
 
 function App() {
   const router = createBrowserRouter([
@@ -38,6 +40,12 @@ function App() {
       path: "/entities",
       element: (
         <Entities/>
+      ),
+    },
+    {
+      path: "/chat",
+      element: (
+        <Chat/>
       ),
     },
     {
@@ -73,6 +81,10 @@ function App() {
     {
       path: '/fqa',
       element: <FQA />,
+    },
+    {
+      path: '/spec',
+      element: <ElementSpecialisation />,
     },
 
   ])  
